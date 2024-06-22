@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Library Admin Panel</title>
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+          background-image: url('https://wallpapers.com/images/hd/novel-in-library-m9ck0jamer9i33i1.jpg');
+        background-color: #f8f9fa;
+    }
+    .navbar {
+        margin-bottom: 20px;
+    }
+    .container {
+        max-width: 800px;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Library Admin</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="libraylogin.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Insert New Books
+        </div>
+        <div class="card-body">
+            <form action="library1.html" method="post">
+                <button type="submit" class="btn btn-primary">Insert</button>
+            </form>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Delete Books
+        </div>
+        <div class="card-body">
+            <form action="deletedata.html" method="post">
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Update Books
+        </div>
+       <div class="card-body">
+            <form action="updatedata.html" method="post">
+                <button type="submit" class="btn btn-warning">Update</button>
+            </form>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Show All Books
+        </div>
+        <div class="card-body">
+            <form action="alllibrarydata.jsp" method="post">
+                <button type="submit" class="btn btn-info">Show All</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap and jQuery JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
